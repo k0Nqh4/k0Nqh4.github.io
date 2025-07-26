@@ -2,35 +2,85 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+  <title>ことね</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .card h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .card a {
+      color: #3366ff;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+    }
+
+    .divider {
+      margin: 20px 0;
+      border-top: 1px solid #ccc;
+    }
+
+    .highlight {
+      color: #0066cc;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>My Website</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+  <div class="card">
+    <img src="https://example.com/your-image.png" alt="プロフィール画像">
+    <h1>このはだよん～</h1>
+    <p>マイクラたのしい！<br>アニメみたいです</p>
+    <p>＝＝＝</p>
+    <a href="#">＝＝＝</a>
+    <a href="#">＝＝＝</a>
 
-  <main>
-    <section class="hero">
-      <h2>Welcome to my site</h2>
-      <p>とりあえず作ってみたサイトですので需要ないかもですね〜
-      </p>
-    </section>
+    <div class="divider"></div>
 
-    <section class="content">
-      <h3>コンテンツタイトル</h3>
-      <p>ここに本文を入れます。テキスト、画像、リンクなど。</p>
-    </section>
-  </main>
+    <a class="highlight" href="#">やっほー</a>
 
-  <footer>
-    <p>© 2025 My Website</p>
-  </footer>
+    <div class="divider"></div>
+
+ 
+  </div>
 </body>
 </html>
